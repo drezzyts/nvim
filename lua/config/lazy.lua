@@ -28,6 +28,10 @@ require("lazy").setup({
     'folke/tokyonight.nvim',
     'nvim-tree/nvim-tree.lua',
     'nvim-tree/nvim-web-devicons',
+    'neovim/nvim-lspconfig',
+    'williamboman/mason-lspconfig.nvim',
+    'williamboman/mason.nvim',
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     {        
         "christoomey/vim-tmux-navigator",
         cmd = {
