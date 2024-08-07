@@ -1,8 +1,7 @@
 require('config.lazy');
 require('config.nvim-tree');
-
-require('mason').setup();
-require('mason-lspconfig').setup();
+require('config.mason');
+require('config.nvim-cmp');
 
 local opt = vim.opt;
 

@@ -31,8 +31,13 @@ require("lazy").setup({
     'neovim/nvim-lspconfig',
     'williamboman/mason-lspconfig.nvim',
     'williamboman/mason.nvim',
+    'hrsh7th/nvim-cmp',
+    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-vsnip',
+    'hrsh7th/vim-vsnip',
+    'hrsh7th/vim-vsnip-integ',
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-    {        
+    {
         "christoomey/vim-tmux-navigator",
         cmd = {
             "TmuxNavigateLeft",
