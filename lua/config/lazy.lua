@@ -26,6 +26,10 @@ require("lazy").setup({
   spec = {
     'nvim-lua/plenary.nvim',
     'folke/tokyonight.nvim',
+    {
+     'nvim-telescope/telescope.nvim', tag = '0.1.8',
+      dependencies = { 'nvim-lua/plenary.nvim' }
+    },
     'nvim-tree/nvim-tree.lua',
     'nvim-tree/nvim-web-devicons',
     'neovim/nvim-lspconfig',
@@ -36,6 +40,8 @@ require("lazy").setup({
     'hrsh7th/cmp-vsnip',
     'hrsh7th/vim-vsnip',
     'hrsh7th/vim-vsnip-integ',
+    'mikelue/vim-maven-plugin',
+    'BurntSushi/ripgrep',
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     {
         "christoomey/vim-tmux-navigator",

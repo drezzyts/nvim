@@ -1,4 +1,5 @@
 require('config.lazy');
+require('config.telescope');
 require('config.nvim-tree');
 require('config.mason');
 require('config.nvim-cmp');
@@ -10,4 +11,5 @@ opt.shiftwidth = 4;
 opt.expandtab = true;
 
 vim.cmd('set number');
-vim.cmd('colorscheme catppuccin-mocha');
+vim.cmd('colorscheme catppuccin-latte');
+vim.cmd('set clipboard+=unnamedplus');

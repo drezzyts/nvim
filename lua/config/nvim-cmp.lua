@@ -77,3 +77,7 @@ local cmp = require'cmp'
   require('lspconfig')['clangd'].setup {
     capabilities = capabilities
   }
+
+  require('lspconfig')['tsserver'].setup {
+    capabilities = capabilities
+  }
