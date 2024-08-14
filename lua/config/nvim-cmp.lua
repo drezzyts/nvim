@@ -81,3 +81,7 @@ local cmp = require'cmp'
   require('lspconfig')['tsserver'].setup {
     capabilities = capabilities
   }
+
+  require('lspconfig')['sqlls'].setup {
+    capabilities = capabilities
+  }
